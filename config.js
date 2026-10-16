@@ -9,5 +9,5 @@ window.BABYKIDS_CONFIG = {
   mensaje: 'Un día lleno de magia, sonrisas y momentos para recordar.',
   maxAsistentes: 4,
   // PASO FINAL: reemplaza esta cadena por la URL terminada en /exec que publicarás desde Google Apps Script.
-  appsScriptUrl: 'https://script.google.com/macros/s/AKfycbz189WwgStMX_-KuqtRLnpDPnQUU5_7L-B7JaWXdrsmPNNDhlnSdkiOD3azkxDy48mt/exec'
+  appsScriptUrl: 'https://script.google.com/macros/s/AKfycby5csXGxLPO9Izqr31TFytiomLcSoxKGZ60mqWVDtd-hNXEmlWSD95bLb-9r4C2yKgd/exec'
 };
