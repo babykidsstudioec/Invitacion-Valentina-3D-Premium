@@ -1,0 +1,37 @@
+BABYKIDS STUDIO FOTOGRÁFICO — VALENTINA 3D PREMIUM
+=================================================
+
+¡Ya están incluidos TODOS los archivos del sitio!
+Incluye foto original de Valentina, música, portada para WhatsApp,
+sobre mágico, interior 3D, formulario y código para Google Apps Script.
+
+PARA VERLA AHORA EN VISUAL STUDIO CODE
+1. Descomprime el ZIP en una carpeta nueva.
+2. Abre esa carpeta en Visual Studio Code: Archivo > Abrir carpeta.
+3. Clic derecho sobre index.html > Open with Live Server.
+4. Abre el sobre. Verás efectos y la invitación 3D.
+5. El formulario funciona en MODO DEMOSTRACIÓN hasta conectar Apps Script.
+
+PARA REGISTRAR RESPUESTAS EN GOOGLE SHEETS
+1. Abre el documento GUIA_PASO_A_PASO.md incluido en este paquete.
+2. Publica el código backend/Code.gs en Google Apps Script.
+3. Copia la URL /exec de tu Apps Script y pégala en config.js > appsScriptUrl.
+4. Guarda y prueba con un nombre pendiente de la lista de invitados.
+
+HOJA DE PRUEBA:
+https://docs.google.com/spreadsheets/d/1iPeIG1y7b7AcY10LP0t95JSkceDafJ0YzajTkH89-6k/edit
+
+ENLACE PÚBLICO CUANDO SUBAS A GITHUB:
+https://babykidsstudioec.github.io/Invitacion-Valentina/
+
+IMPORTANTE: no se ha modificado el repositorio de GitHub.
+NO publiques una hoja de invitados ni contraseñas en el sitio.
+Si vas a vender el servicio, utiliza un hosting comercial y un backend
+con controles de acceso y privacidad más robustos.
+
+
+## Cambios de esta versión
+- Eliminado el campo de teléfono del formulario.
+- Cuando se abre o se vuelve a entrar (incluso usando Atrás), el desplazamiento empieza desde arriba.
+- La invitación mantiene el sobre 3D, el formulario y el máximo de cuatro personas.
+- Si aún no publicaste Apps Script, utiliza el archivo backend/Code.gs actualizado. Si ya lo publicaste, el sitio seguirá funcionando sin enviar teléfono; puedes actualizar después el script.

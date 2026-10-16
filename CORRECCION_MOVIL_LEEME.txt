@@ -1,0 +1,22 @@
+BABYKIDS · CORRECCIÓN EFECTO 3D EN CELULAR
+
+Qué se corrigió:
+- Antes el CSS anulaba el relieve 3D en pantallas táctiles.
+- Ahora la tarjeta entra en 3D y conserva bordes, sombras y profundidad en el celular.
+- Al tocar la foto, se inclina suavemente y vuelve a su posición.
+- Mariposas rosadas dibujadas con SVG durante 5–7 segundos tras abrir el sobre.
+- Si tu móvil tiene activado «Reducir movimiento», respeta esa opción y muestra la tarjeta sin animaciones.
+- Se añadieron identificadores ?v=movil3 para evitar ver los archivos viejos en caché.
+
+PARA ACTUALIZAR TU PROYECTO ACTUAL
+Copia estos cuatro archivos respetando la estructura original:
+  index.html
+  app.js
+  assets/css/3d.css
+  assets/js/3d.js
+No borres ni cambies las fotografías, la música, Google Sheets ni config.js.
+
+Para probar en móvil, abre Live Server usando la IP Wi-Fi de la computadora.
+Si Safari/Chrome conserva archivos antiguos, cierra la pestaña y abre de nuevo la dirección con ?v=movil3.
+
+IMPORTANTE: Google Sheets solo registra respuestas cuando Apps Script está publicado y config.js contiene la URL /exec.

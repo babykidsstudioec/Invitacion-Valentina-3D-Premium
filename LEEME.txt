@@ -1,0 +1,31 @@
+BABYKIDS — ACTUALIZACIÓN DE NOMBRES FLEXIBLES
+
+1. GOOGLE APPS SCRIPT (OBLIGATORIO):
+   Abre el proyecto "BabyKids – Confirmaciones Valentina".
+   En "Código.gs" reemplaza TODO con el contenido de "Code.gs".
+   Guarda Ctrl+S.
+   Opcional: elige "pruebaNombresFlexibles" y pulsa Ejecutar para ver resultados de prueba, sin modificar la hoja.
+   En IMPLEMENTAR > ADMINISTRAR IMPLEMENTACIONES > selecciona tu implementación > EDITAR (lápiz).
+   En Versión selecciona NUEVA VERSIÓN y pulsa IMPLEMENTAR.
+   IMPORTANTE: Si no haces esta actualización de la implementación, el enlace /exec seguirá usando el código anterior.
+   Al editar la implementación existente, la URL /exec debe seguir siendo la misma.
+
+2. VISUAL STUDIO CODE:
+   En la carpeta de Valentina sustituye SOLO index.html y app.js.
+   NO sustituyas config.js: conserva la URL de Apps Script que ya funciona.
+   NO toques la carpeta assets: seguirán las imágenes, música y efectos 3D.
+   Guarda y actualiza con Ctrl+Shift+R.
+
+3. PRUEBA:
+   Nombre en la hoja: María Fernanda Torres.
+   En el formulario escribe "Maria Torres" (sin tilde) y confirma.
+   ANTES de probar mira la columna D de María: si YA confirmó, dirá que la respuesta está registrada.
+   Alternativa: prueba con otro invitado PENDIENTE, escribiendo primer nombre + apellido.
+
+4. REGLAS:
+   Se aceptan mayúsculas, sin tildes y nombres intermedios omitidos.
+   Si la coincidencia es ambigua, debe escribirse más información.
+   Los nombres con errores tipográficos (letras cambiadas) NO se emparejan automáticamente.
+   Máximo 4 personas; segunda respuesta bloqueada. No se altera el diseño 3D.
+
+SEGURIDAD: La invitación de prueba usa un enlace general y nombre escrito; no verifica identidad.

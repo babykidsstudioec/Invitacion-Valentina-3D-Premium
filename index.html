@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <!-- Evita que el navegador recupere la posición anterior al volver a abrir la invitación. -->
+  <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
+  <meta name="theme-color" content="#f9eced">
+  <meta name="description" content="Valentina te invita a un cumpleaños de cuento de hadas. Jueves 24 de diciembre de 2026, 3:00 p. m., El bosque encantado.">
+  <title>Valentina | Invitación mágica · BabyKids Studio Fotográfico</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BabyKids Studio Fotográfico">
+  <meta property="og:title" content="Valentina · Una invitación encantada">
+  <meta property="og:description" content="¡Hay una sorpresa esperando por ti! Abre el sobre y acompáñanos a celebrar.">
+  <meta property="og:url" content="https://babykidsstudioec.github.io/Invitacion-Valentina/">
+  <meta property="og:image" content="https://babykidsstudioec.github.io/Invitacion-Valentina/assets/img/preview-whatsapp.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/3d.css?v=movil3">
+  <script defer src="config.js"></script>
+  <script defer src="app.js?v=movil3"></script>
+  <script defer src="assets/js/3d.js?v=movil3"></script>
+</head>
+<body>
+  <div id="magic-gate" class="magic-gate" role="region" aria-label="Abrir invitación de Valentina">
+    <div class="gate-stars" aria-hidden="true">✧ &nbsp; ♡ &nbsp; ✦ &nbsp; ♡ &nbsp; ✧</div>
+    <p class="brand-kicker">BABYKIDS STUDIO FOTOGRÁFICO</p>
+    <p class="gate-intro">Un sobre lleno de magia</p>
+    <h1 class="gate-heading">Hay algo <em>especial</em> para ti</h1>
+    <p class="gate-subheading">Toca el sello y descubre una dulce sorpresa</p>
+    <div class="envelope-scene">
+      <span class="decor-float d1" aria-hidden="true">✿</span><span class="decor-float d2" aria-hidden="true">✦</span>
+      <span class="decor-float d3" aria-hidden="true">✧</span><span class="decor-float d4" aria-hidden="true">♡</span>
+      <button id="open-envelope" class="envelope" type="button" aria-label="Abrir sobre de la invitación">
+        <span class="envelope-back"></span>
+        <span class="envelope-letter"><small>UNA CELEBRACIÓN ESPECIAL</small><strong>Valentina</strong><small>24 · DICIEMBRE · 2026</small></span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-left"></span><span class="envelope-right"></span><span class="envelope-pocket"></span>
+        <span class="envelope-seal">♡</span>
+      </button>
+    </div>
+    <p class="gate-action-hint" id="gate-hint">✧ Pulsa el sobre para abrirlo ✧</p>
+    <p class="gate-footer">HECHO CON AMOR PARA UN DÍA INOLVIDABLE</p>
+  </div>
+
+  <div id="magic-particles" class="magic-particles" aria-hidden="true"></div>
+  <div class="page-halo" aria-hidden="true"></div>
+  <main class="invitation" id="inicio" aria-label="Invitación de Valentina con diseño tridimensional">
+    <header class="topline">
+      <span class="topline-heart">♡</span>
+      <span>BABYKIDS <strong>STUDIO FOTOGRÁFICO</strong></span>
+      <span class="topline-side">INVITACIÓN ESPECIAL</span>
+    </header>
+
+    <section class="hero" aria-label="Fotografía de Valentina en un bosque encantado">
+      <div class="hero-depth-light" aria-hidden="true"></div>
+      <div class="hero-frame" data-depth-scene="true">
+        <img src="assets/img/valentina.webp" alt="Valentina, protagonista de esta celebración" id="hero-photo" fetchpriority="high">
+      </div>
+      <div class="foil-corner foil-corner-left" aria-hidden="true">❦</div>
+      <div class="foil-corner foil-corner-right" aria-hidden="true">❦</div>
+      <span class="hero-sparkle s1" aria-hidden="true">✧</span>
+      <span class="hero-sparkle s2" aria-hidden="true">✦</span>
+      <span class="hero-sparkle s3" aria-hidden="true">✧</span>
+      <span class="hero-badge">✦ &nbsp; UN CUENTO ESTÁ POR COMENZAR &nbsp; ✦</span>
+    </section>
+
+    <section class="welcome dimensional-panel" aria-labelledby="valentina-title">
+      <div class="flourish" aria-hidden="true">✧ &nbsp; ♡ &nbsp; ✧</div>
+      <p class="eyebrow">UNA CELEBRACIÓN ENCANTADA</p>
+      <h2 id="valentina-title" class="name-script">Valentina</h2>
+      <h3>¡Te invita a celebrar<br>su cumpleaños!</h3>
+      <div class="ornament"><span></span>♡<span></span></div>
+      <p id="event-message">Un día lleno de magia, sonrisas y momentos para recordar.</p>
+      <div class="mini-tags"><span>✦ 24 de diciembre</span><span>✦ 3:00 p. m.</span><span>✦ Bosque encantado</span></div>
+    </section>
+
+    <section class="music-strip" aria-label="Música de cumpleaños">
+      <div class="music-illustration">♫</div>
+      <div class="music-caption"><strong>Una melodía para soñar</strong><small>Activa o pausa la música cuando quieras</small></div>
+      <button type="button" id="music-button" class="music-toggle" aria-label="Reproducir música" aria-pressed="false">▶</button>
+      <audio id="birthday-audio" src="assets/audio/cumpleanos-feliz.mp3" loop preload="none"></audio>
+    </section>
+
+    <section class="section-shell details dimensional-panel" aria-labelledby="detail-heading">
+      <div class="section-ornament">✿ &nbsp; ✧ &nbsp; ✿</div>
+      <p class="eyebrow">GUARDA ESTA FECHA</p>
+      <h2 id="detail-heading">Los detalles de nuestra magia</h2>
+      <p class="section-desc">Reserva un lugar en tu corazón para esta celebración.</p>
+      <div class="detail-grid">
+        <div class="detail-tile"><span>✦</span><small>FECHA</small><strong id="date-text">24 de diciembre de 2026</strong></div>
+        <div class="detail-tile"><span>◷</span><small>HORA</small><strong id="time-text">3:00 p. m.</strong></div>
+      </div>
+      <div class="location-tile"><span class="location-icon">⌖</span><div><small>LUGAR</small><strong id="place-text">El bosque encantado</strong><p>La ubicación exacta te espera en el mapa</p></div></div>
+      <a class="outline-button" id="map-button" href="https://www.google.com/maps/search/?api=1&query=-2.1117833261555625%2C-79.89998191975077" target="_blank" rel="noopener noreferrer">⌖ &nbsp; Ver ubicación en Google Maps &nbsp; ↗</a>
+    </section>
+
+    <section class="countdown-shell dimensional-panel" aria-labelledby="countdown-heading">
+      <div class="sparkle-rail">✦ &nbsp; ♡ &nbsp; ✦</div>
+      <p class="eyebrow light">LA CUENTA REGRESIVA</p>
+      <h2 id="countdown-heading">La magia comienza en…</h2>
+      <div class="countdown" role="timer" aria-live="off">
+        <div><strong id="days">--</strong><small>DÍAS</small></div><div><strong id="hours">--</strong><small>HORAS</small></div>
+        <div><strong id="minutes">--</strong><small>MINUTOS</small></div><div><strong id="seconds">--</strong><small>SEGUNDOS</small></div>
+      </div>
+      <p id="countdown-note">¡Cada segundo nos acerca a un día inolvidable!</p>
+    </section>
+
+    <section class="section-shell rsvp dimensional-panel" id="confirmacion" aria-labelledby="rsvp-heading">
+      <div class="section-ornament">✧ &nbsp; ♡ &nbsp; ✧</div>
+      <p class="eyebrow">CONFIRMACIÓN DE ASISTENCIA</p>
+      <h2 id="rsvp-heading">¿Nos acompañas?</h2>
+      <p class="section-desc">Tu respuesta nos ayuda a preparar cada detalle con mucho cariño.</p>
+      <div class="form-pearl" aria-hidden="true">✧</div>
+      <div class="limit-pill">✿ &nbsp; Máximo 4 personas por confirmación</div>
+      <div class="setup-warning" id="setup-warning" hidden>Modo de demostración: falta conectar Google Apps Script. Puedes probar el diseño, pero aún no se guardarán respuestas.</div>
+      <form id="rsvp-form" novalidate>
+        <label for="guest-name">Nombre y apellido del invitado</label>
+        <input id="guest-name" name="name" maxlength="90" required autocomplete="name" placeholder="Ej.: María Torres" aria-describedby="name-help">
+        <p id="name-help" class="privacy-note" style="margin:2px 0 10px;text-align:left">Puedes omitir tu segundo nombre; no importa si escribes sin tildes. Escribe por lo menos tu nombre y un apellido.</p>
+        <label for="attendance">¿Podrás acompañarnos?</label>
+        <select id="attendance" name="attendance" required>
+          <option value="si">♡ Sí, ¡con mucho gusto!</option>
+          <option value="no">No podré asistir esta vez</option>
+        </select>
+        <div class="attendee-block" id="attendee-block">
+          <p class="count-label">¿Cuántas personas asistirán?</p>
+          <div class="count-fields">
+            <div><label for="adults">Adultos</label><select id="adults" name="adults"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="0">0</option></select></div>
+            <div><label for="children">Niños</label><select id="children" name="children"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></div>
+          </div>
+          <div class="total-indicator">Total: <strong id="total-count">1 persona</strong> <span>· máximo 4</span></div>
+        </div>
+        <label for="guest-note">¿Quieres dejarnos un mensaje? <span class="optional">(opcional)</span></label>
+        <textarea id="guest-note" name="note" maxlength="250" rows="3" placeholder="Unas palabras para Valentina…"></textarea>
+        <button type="submit" id="confirm-button" class="primary-button">♡ &nbsp; Confirmar mi respuesta &nbsp; ✧</button>
+        <p class="rsvp-feedback" id="rsvp-feedback" role="status" aria-live="polite"></p>
+        <p class="privacy-note">Una vez conectado el registro, tus datos se guardarán en una hoja privada del organizador. Máximo 4 personas. Si ya has respondido, no podrás confirmar nuevamente con ese nombre.</p>
+      </form>
+      <div class="rsvp-done" id="rsvp-done" hidden tabindex="-1"><span class="done-icon">✓</span><h3 id="done-heading">¡Muchas gracias!</h3><p id="done-copy">Tu respuesta ha quedado registrada.</p><p class="done-footnote">La invitación seguirá disponible para consultar el lugar, la fecha y la hora.</p></div>
+    </section>
+
+    <footer class="invitation-footer"><span>♡</span><p>Será un día mágico para compartir juntos.</p><small>UNA CREACIÓN DE <strong>BABYKIDS STUDIO FOTOGRÁFICO</strong></small></footer>
+  </main>
+</body>
+</html>
